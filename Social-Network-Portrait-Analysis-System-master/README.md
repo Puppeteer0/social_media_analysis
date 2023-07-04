@@ -1,5 +1,5 @@
 <h1 align="center">
-社交媒体人物画像分析系统
+soial_media_system
 </h1>
 
 ## 背景简介
@@ -9,63 +9,6 @@
 
 人物画像是当前大数据领域的一种典型应用，是精细化和数据化运营的需求产物，普遍应用在互联网产品中。
 
-## 本科毕设简单介绍
-毕设主要研究基于微博博文等文本数据推断微博用户性别、年龄标签属性以及挖掘微博用户兴趣爱好的算法。
-
-搭建社交媒体人物画像分析系统，支持数据爬取、画像分析以及结果管理等功能，以可视化的方式呈现本文选用的算法模型推断出来的微博用户的性别、年龄标签概率值以及兴趣挖掘的关键词。
-
-## 所使用的数据集
-所使用的数据集是SMP CUP 在2016年发布的公开微博数据集，该数据集分了四个文件，分别是微博用户基本信息文件、微博用户标签文件、微博用户关系文件和微博文本文件。
-
-考虑到微博用户的个人简介、认证信息等文本内容对于微博用户的性别、年龄标签属性值的推断可能存在一定的价值，利用爬虫技术爬取了该数据集中所有微博用户更详细的基本信息以对数据集进行特征补充。
-
-同时，该数据集的发布时间为2016年，距离毕设研究的时间相对有些久远，绝大多数的微博用户的微博状态以及发布的博文肯定都有所更新，遂使用爬虫技术一并补充爬取数据集中微博用户从2016年至毕设开始时的微博文本数据。
-
-## 系统开发框架
-### 前端框架
-<p align="center">
-  <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-2.6.10-brightgreen.svg" alt="vue">
-  </a>
-  <a href="https://github.com/ElemeFE/element">
-    <img src="https://img.shields.io/badge/element--ui-2.7.0-brightgreen.svg" alt="element-ui">
-  </a>
-  <a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
-    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/releases">
-    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
-  </a>
-  <a href="https://gitter.im/vue-element-admin/discuss">
-    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="gitter">
-  </a>
-  <a href="https://panjiachen.github.io/vue-element-admin-site/donate">
-    <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
-  </a>
-</p>
-
-- [vue-element-admin](https://panjiachen.github.io/vue-element-admin) 是一个后台前端解决方案，它基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://element.eleme.io/#/zh-CN/component/installation) 实现。它使用了最新的前端技术栈，内置了 i18n 国际化解决方案，动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。
-
-- [在线预览](https://panjiachen.github.io/vue-element-admin)
-
-- [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
-
-- License： [MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
-Copyright (c) 2017-present PanJiaChen
-
-### 后端框架
-- [Django](https://www.djangoproject.com/)
-- [后端代码仓库地址](https://github.com/zhangjie1982/SocialNetworkPortraitAnalysisSystemBackCode)
-
-## 前序准备
-`Vue-Element-Admin仓库README文件搬运`
-
-你需要在本地安装 [node](http://nodejs.org/) 和 [git](https://git-scm.com/) 。
-
-项目技术栈基于 [ES2015+](http://es6.ruanyifeng.com/) 、[vue](https://cn.vuejs.org/index.html) 、[vuex](https://vuex.vuejs.org/zh-cn/) 、[vue-router](https://router.vuejs.org/zh-cn/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-ui](https://github.com/ElemeFE/element) ，所有的请求数据都使用[Mock.js](https://github.com/nuysoft/Mock) 进行模拟，提前了解和学习这些知识会对使用本项目有很大的帮助。
 
 ## 系统功能
 
